@@ -21,7 +21,7 @@ var url="mongodb+srv://pranjul03:NMGRBkFYniE48QoQ@cluster0.3gl2o.mongodb.net/Emp
 
 mongoose.connect(url , (err)=>{
     if(err) console.log(err)
-    console.log("database connection successful")
+    console.log("Database Connection successful")
 })
 
 var jwt= require('jsonwebtoken');
