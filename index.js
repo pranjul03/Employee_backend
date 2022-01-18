@@ -7,8 +7,8 @@ app.use(cors());
 
 app.use(express.json());
 
-
-app.listen(8080 ,(err)=>{
+const port = process.env.PORT || 3000 ;
+app.listen(port ,(err)=>{
     if(err) console.log(err)
     console.log("server started successfully")
 })
